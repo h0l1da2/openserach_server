@@ -1,1 +1,8 @@
-spring.application.name=opensearch
+spring:
+  application:
+    name: opensearch
+
+opensearch:
+  key-store:
+    path: classpath:opensearch/key.jks
+    password: in8282
